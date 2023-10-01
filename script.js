@@ -5,14 +5,6 @@ const validator = document.querySelector(".validator")
 const btnC = document.querySelector("#_btn2")
 
 
-
-// console.log(btnC);
-
-// function addTodo() {
-// }
-// function mouseOver() {
-// }
-
 function saveAll() {
     const allTodo = JSON.stringify(list.innerHTML);
     localStorage.setItem("myTodos", allTodo)
